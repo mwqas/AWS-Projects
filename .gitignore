@@ -1,0 +1,20 @@
+# Credentials and local AWS state
+.env
+.env.*
+!.env.example
+.aws/
+*.pem
+*.key
+.bedrock_agentcore*
+deployment-state.json
+# Python and generated files
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.uv-cache/
+.DS_Store
+Thumbs.db
+*.zip
+invoke-output*.txt
+evidence/private/
