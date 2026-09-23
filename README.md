@@ -4,6 +4,14 @@ Hands-on AWS learning projects, worked examples, and study resources.
 
 ## Start here
 
+### Build Bedrock Support Agent — application project
+
+- [Open the complete project](build-bedrock-support-agent/README.md)
+- [Application code: main.py](build-bedrock-support-agent/main.py)
+- [Configuration and deployment runbook](build-bedrock-support-agent/RUNBOOK.md)
+
+Includes the agent, Lambda fixtures, catalog, locked dependencies, Dockerfile, and 22 mocked boundary tests.
+
 ### Amazon Bedrock AgentCore customer support agent
 
 Build an educational support agent using **Strands**, **AgentCore Runtime**, **Gateway/MCP**, **Knowledge Bases**, **Memory**, **Code Interpreter**, and **Browser**.
